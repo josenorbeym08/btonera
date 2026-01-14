@@ -1,0 +1,10 @@
+# Archivos comúnmente usados en desarrollo
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.local

@@ -12,6 +12,37 @@
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+a {
+  text-decoration: none; /* Quita el subrayado */
+  color: #333; /* Color del icono */
+  margin: 0 5px;
+}
+
+/* Para iconos de imagen */
+img {
+  vertical-align: middle; /* Alinea la imagen con el texto/icono */
+}
+
+/* Para iconos de Font Awesome */
+a i {
+  font-size: 24px; /* Tamaño del icono */
+  transition: color 0.3s ease; /* Efecto suave al pasar el ratón */
+}
+
+a:hover i {
+  color: #007bff; /* Cambia el color al pasar el ratón */
+}
+
+/* Añade un cursor de mano */
+a {
+  cursor: pointer;
+}
+
+
+
+
+
 /* Reset y Base */
 * {
     margin: 0;
@@ -261,6 +292,7 @@ body {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 }
+
 
 
 
